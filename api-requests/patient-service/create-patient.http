@@ -1,5 +1,6 @@
 ### Creates a new Patient Entity
 POST http://localhost:4004/api/patients
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
